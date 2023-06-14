@@ -60,16 +60,6 @@ spec:
               configMapKeyRef:
                 name: geodata-config
                 key: "db_schema"
-          - name: GRSB_LIQUIBASE_ENABLED
-            valueFrom:
-              configMapKeyRef:
-                name: geodata-config
-                key: "grsb_liquibase_enabled"
-          - name: LIQUIBASE_CONTEXTS
-            valueFrom:
-              configMapKeyRef:
-                name: geodata-config
-                key: "liquibase_contexts"
           ports:
             - name: http
               containerPort: 8080

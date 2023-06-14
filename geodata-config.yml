@@ -8,4 +8,3 @@ data:
   datasource_url: "jdbc:postgresql://postgres-service.default.svc.cluster.local:5432/geodata"
   geodata_db_user: "geodata"
   db_schema: "public"
-  liquibase_contexts: "dev"
