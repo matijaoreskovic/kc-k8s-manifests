@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: geodata
-          image: ag04/geodata-ng:latest
+          image: moreskovic/geodata-ng:devacademy-2023
           imagePullPolicy: IfNotPresent
           env:
           - name: GEODATA_API_URL
